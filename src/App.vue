@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <h1 class="dynamic">dynamic components</h1>
+    <h1 class="dyma">dynamic components</h1>
     <!-- <signin /> -->
     <!-- <signup /> -->
     <component v-bind:is="cmp"></component>
@@ -40,7 +40,7 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
-.dynamic {
+.dyma {
   color: yellowgreen;
 }
 </style>
